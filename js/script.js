@@ -11,7 +11,7 @@ const listBanners= document.querySelector(".list-banners");
 
 figure.classList.add("wrapper-banner");// <figure class="wrapper-banner">
 
-img.src= oficina.url; // <img src="ima/banner4.png">
+img.src="img/banner4.png"; // <img src="ima/banner4.png">
 img.alt = "Banner of the movie"; // <img src="img/banner4.png"alt="Banner of the movie">
 img.classList.add("main-banner"); // <img class="main-banner" src="img/banner4.png" alt="Banner of the movie">
 
