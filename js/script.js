@@ -1,6 +1,6 @@
-const movie = {
-    title: "Herry Potter",
-    url: "http://caminho.com/imagem",
+const oficina = {
+    title: "Tema da Oficina",
+    url: "https://banner01.png",
 }
 // HTML
 const figure = document.createElement("figure");
@@ -11,11 +11,11 @@ const listBanners= document.querySelector(".list-banners");
 
 figure.classList.add("wrapper-banner");// <figure class="wrapper-banner">
 
-img.src= "img/banner4.png"; // <img src="ima/banner4.png">
+img.src= "oficina.url"; // <img src="ima/banner4.png">
 img.alt = "Banner of the movie"; // <img src="img/banner4.png"alt="Banner of the movie">
 img.classList.add("main-banner"); // <img class="main-banner" src="img/banner4.png" alt="Banner of the movie">
 
-title.textContent = "Nome do Filme"; // <figcaption>Nome do Fi;me</figcaption>
+title.textContent = "oficina.title"; // <figcaption>Nome do Fi;me</figcaption>
 title.classList.add("main-caption"); // <figcaption class="main-caption"> Nome do Filme</figcaption>
 
 figure.insertAdjacentElement('beforeend', img);
