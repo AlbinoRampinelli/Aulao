@@ -1,6 +1,6 @@
 const oficina = {
     title: "Tema da Oficina",
-    url: "https://img/banner1.png",
+    url: "img/banner1.png",
 }
 // HTML
 const figure = document.createElement("figure");
